@@ -84,10 +84,12 @@ body {
   vertical-align: middle;
   text-transform: uppercase;
   border-bottom: 1px solid transparent;
+  transition: 250ms;
 }
 
 .card__link:hover {
   border-bottom: 1px solid #295eff;
+  transition: 250ms;
 }
 
 .card__bold {
