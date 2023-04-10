@@ -1,0 +1,28 @@
+{
+  "name": "prueba-banco-de-chile-abril-2023",
+  "version": "1.0.0",
+  "description": "Este repositorio es una prueba en una entrevista laboral para ingresar a Banco de Chile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+		"watch-css": "nodemon -e scss -x \"npm     run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebaZauberer/prueba-banco-de-chile-abril-2023.git"
+  },
+  "keywords": [
+    "prueba"
+  ],
+  "author": "Sebastian Olate H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebaZauberer/prueba-banco-de-chile-abril-2023/issues"
+  },
+  "homepage": "https://github.com/SebaZauberer/prueba-banco-de-chile-abril-2023#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22"
+  }
+}

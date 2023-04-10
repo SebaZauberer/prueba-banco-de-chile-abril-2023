@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba banco de Chile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <main class="novedades container px-3 mx-auto py-6 md:pt-0">
+    <section class="novedades__titles text-center py-24 hidden md:block">
+      <h1 class="novedades__title">¿Qué <strong>funciones nuevas</strong> tenemos para ti?</h1>
+      <p class="novedades__subtitle">Descubre las novedades de las Apps del Chile</p>
+    </section>
+    <section class="novedades__card-list">
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
+        <article class="card card--main row-span-3">
+          <div class="card__content">
+            <figure class="card__title-box mb-5">
+              <img src="img/bch.webp" alt="app banco de chile" class="card__logo">
+              <figcaption class="card__title">App Mi Banco</figcaption>
+            </figure>
+            <p class="card__text">Inscribe y paga tus cuentas de servicios desde la nueva App Mi Banco</p>
+          </div>
+          <img src="img/funciones-1.webp" alt="clienta usando la app" class="card__image">
+          <div class="card__pseudo-circle"></div>
+        </article>
+        <article class="card md:mt-10">
+          <div class="card__content">
+            <img src="img/mi-pago.webp" alt="app redgiro QR" class="card__logo">
+            <p class="card__text">Con <strong class="card__bold">RedGiro QR</strong> retira dinero sin tarjeta</p>
+            <a href="#" class="card__link">conoce más <span class="card__arrow-link">&#10095;</span></a>
+          </div>
+          <img src="img/funciones-2.webp" alt="telefono con la app redgiro QR" class="card__image">
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <img src="img/mi-inversion.webp" alt="app redgiro QR" class="card__logo md:mt-5 lg:mt-10">
+            <p class="card__text">Crea un plan de ahorro con <strong class="card__bold">Mis metas</strong></p>
+            <a href="#" class="card__link md:hidden">conoce más <span class="card__arrow-link">&#10095;</span></a>
+          </div>
+          <img src="img/funciones-3.webp" alt="telefono con la app redgiro QR" class="card__image">
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
